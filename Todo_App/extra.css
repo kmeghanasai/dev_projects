@@ -1,0 +1,163 @@
+.body{
+    position: relative;
+}
+.text-on-image{
+    position: absolute;
+    top: 5vh;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+}
+.p1{
+    margin-bottom: 0.05rem;
+    margin-left: 3rem;
+    font-weight: 340;
+}
+#displaydmy{
+    font-size: 15px;
+    margin-left: 2rem;
+    opacity: 0.7;
+}
+.bg-color{
+    background-color: #7b8ce4;
+}
+.p2{
+    padding-left: 1vw;
+    padding-right: 5vw;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.858);
+}
+.p3{
+    padding-right: 3vw;
+    font-size: 0.9rem;
+    font-weight: 380;
+    color: rgba(255, 255, 255, 0.858);
+}
+.firstbox{
+    height: 7vh;
+    min-width: 270px;
+    align-items: center;
+}
+.p4{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 450;
+    text-align: center;
+}
+
+.addicon{
+    background-color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    right: 15px;
+    bottom: 1vh;
+    border: 0px;
+}
+
+.arrowicon{
+    border: 0px;
+    position: absolute;
+    top: 5.5vh;
+    left: 6vw;
+    font-size: 1.5rem;
+}
+.box1{
+    background-color: #6071c9;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}   
+.p5{
+    text-align: center;
+    font: 1.5rem serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+.input-group{
+    width: 85%;
+}
+#task-input{
+    width: 85%;
+    text-align: center;
+    margin: 0.5rem;
+    height: 5vh;
+}
+#textnode{
+    margin-left: 15rem;
+}
+#submit{
+    width: 85%; 
+    margin: 0.5rem;
+    text-align: center;
+    height: 5vh;
+}
+.container {
+    padding: 10px;
+    width: 98%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    min-width: 300px;
+    text-align: center;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray; 
+}
+#task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.edit-button {
+    position: absolute;
+    cursor: pointer;
+    right: 12rem;
+    background: none;
+    border: none;
+    color: blue;
+}
+  .delete-button {
+    position: absolute;
+    cursor: pointer;
+    right: 7rem;
+    background: none;
+    border: none;
+    color: blue;
+}
+@media(max-width:400px){
+    .edit-button{
+        right: 3rem;
+    }
+    .delete-button{
+        right: 1rem;
+    }
+}
+#icon-selector{
+    width: 85%;
+    height: 5vh;
+    margin: 0.5rem;
+    text-align: center;
+}
+#icon-container{
+    height: 5vh;
+    margin: 2rem;
+    width: 85%;
+}
+
+#icon{
+    font-size: 1.5rem;
+    position: absolute;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Grid layout with two columns: one for icon and one for text */
+    align-items: center; /* Vertically center items */
+    gap: 2rem; /* Space between icon and text (adjust as needed) */
+}
+  

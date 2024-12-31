@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo app pg2</title>
+        <link rel="stylesheet" href="custom.css"> <!-- main custom styles -->
+        <link rel="stylesheet" href="extra.css">  <!--additional custom styles-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+<body>
+    <div class="container-fluid d-flex justify-content-center align-items-center" style="height: 100vh; background-color: #6071c9;;">
+        <div class="container-fluid box1">
+            <button class="arrowicon"> <i class="fa-solid fa-arrow-left "></i></button>
+            <p class="p5">Add new task</p>
+            <div id="icon-container">
+                <i class="fa-solid fa-question" id="icon" style="color: black;"></i> <!-- Default icon -->
+            </div>
+              
+           
+            <form id="task-form">
+                <div class="dropdownmenu">
+                    <select id="icon-selector">
+                        <option value="fa-envelope">Mail</option>
+                        <option value="fa-stethoscope">Health</option>
+                        <option value="fa-dumbbell">Exercise</option>
+                        <option value="fa-utensils">Food</option>
+                        <option value="fa-book">Study</option>
+                        <option value="fa-broom">Cleaning</option>
+                        <option value="fa-bed">Rest</option>
+                    </select>
+                </div>
+                <input type="text" id="task-input" placeholder="Enter a new task" required>
+                <button id="submit" type="submit">Add Your Task</button>
+            </form>
+        </div> 
+        
+    </div>
+
+    <script src="pro2.js"></script>
+    
+</body>
+</html>

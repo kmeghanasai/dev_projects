@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app pg1</title>
+    <link rel="stylesheet" href="custom.css"> <!-- main custom styles -->
+    <link rel="stylesheet" href="extra.css">  <!--additional custom styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body >
+
+    <div class="container-fluids" >
+        <img src="image1.jpg" class="w-100 img-fluids" style="height: 27vh;min-width: 300px;" alt="..." >
+        <div class="text-on-image" >
+            <p class="p1">Your</p>
+            <p class="p1">Tasks</p>
+            <p id="displaydmy">show date</p>
+        </div>
+    </div>
+
+    <nav class="w-100 navbar navbar-expand-lg bg-color " style="min-width: 300px;">
+        <div class="d-flex flex-row align-items-center">
+            <div class="p2">All</div>
+            <div class="p3">Active</div>
+            <div class="p3">Completed</div>
+        </div>        
+    </nav>
+
+    <div id="task-list">
+        <!-- Tasks will be dynamically added here -->
+        
+    </div>
+
+    <button class="addicon" ><i class="bi bi-plus-circle-fill" style="color: #7b8ce4;"></i></button>
+    
+
+    <script src="pro.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "Todo_App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.6"
+  }
+}
