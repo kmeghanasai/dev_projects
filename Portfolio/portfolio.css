@@ -1,0 +1,111 @@
+body{
+    background: linear-gradient(to top, rgb(205, 73, 73) 30%, rgba(0,0,0,0));
+}
+
+.outerbox{
+    width: 1015.6;
+    height: 539px;
+
+    margin: 95px 145px 95px 145px;
+    background: linear-gradient(to right, rgb(203, 40, 40) 25.7%, white 25.7%);
+}
+
+#inner{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    position: absolute;
+    border: 10px solid rgb(203, 40, 40);
+    top: 225px;
+    left: 325px;
+    right: 800.6px;
+    background-color: white;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    border: 10px solid rgb(203, 40, 40);
+    top: 25px;
+    bottom: 25px;
+    right: 25px;
+    left: 25px;
+    background-color: white;
+    background-image: url("mypic1.jpg");
+    background-size: cover;
+}
+
+#name{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 150px;
+    right: 420px;
+    font-weight: bolder;
+    color: rgb(89, 88, 88);
+}
+
+#text{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 250px;
+    right: 598px;
+    color: rgb(89, 88, 88);
+}
+
+#text1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    left: 750px;
+}
+
+#insta{
+    font-size: 50px;
+    position: absolute;
+    top: 500px;
+    left: 750px;
+    
+}
+
+#fb{
+    font-size: 50px;
+    position: absolute;
+    top: 500px;
+    left: 850px;
+}
+
+#linkedin{
+    font-size: 50px;
+    position: absolute;
+    top: 500px;
+    left: 950px;
+}
+
+#github{
+    font-size: 50px;
+    position: absolute;
+    top: 500px;
+    left: 1050px; 
+}
+
+#insta:hover{
+    color: rgb(89, 88, 88) !important;
+}
+
+#fb:hover{
+    color: rgb(89, 88, 88) !important;
+}
+
+#linkedin:hover{
+    color: rgb(89, 88, 88) !important;
+}
+
+#github:hover{
+    color: rgb(89, 88, 88) !important;
+}
