@@ -2,6 +2,10 @@
 
 This is a **static clone of the Amazon homepage**, built using only **HTML** and **CSS**. It replicates the look and layout of the desktop version of the Amazon website.
 
+## 🌐 Live Demo
+
+🔗 [View the live site here] (https://delightful-naiad-ae79b5.netlify.app/)
+
 ## 🚀 Features
 
 - HTML structure closely matching the actual Amazon homepage
@@ -23,4 +27,4 @@ This is a **static clone of the Amazon homepage**, built using only **HTML** and
 - CSS3
 
 ##
-https://delightful-naiad-ae79b5.netlify.app/
+
