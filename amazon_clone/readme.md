@@ -23,3 +23,4 @@ This is a **static clone of the Amazon homepage**, built using only **HTML** and
 - CSS3
 
 ##
+https://delightful-naiad-ae79b5.netlify.app/
