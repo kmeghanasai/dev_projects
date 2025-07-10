@@ -26,5 +26,4 @@ This is a **static clone of the Amazon homepage**, built using only **HTML** and
 - HTML5
 - CSS3
 
-##
 
