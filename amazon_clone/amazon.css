@@ -15,7 +15,7 @@ body{
 }
 /* logo */
 .logo{
-    background-image: url("amazon.logo.png");
+    background-image: url("images/amazon.logo.png");
     background-size: cover;
     height: 50px;
     width: 113px;
@@ -76,7 +76,7 @@ body{
 /* searchbar */
 #searchbar{
     height: 40px;
-    width: 770px;
+    width: 1050px;
     color: rgb(89,88,88);
 }
 /* searchsymbol */
@@ -101,7 +101,7 @@ body{
     align-items: flex-end;
 }
 .lanlogo{
-    background-image: url("american_flag.jpeg");
+    background-image: url("images/american_flag.jpeg");
     background-size: cover;
     height: 14px;
     width: 18px;
@@ -254,7 +254,7 @@ body{
 }
 /* ama_image1 */
 .image1{
-    background-image: url("ama_im1.jpg");
+    background-image: url("images/ama_im1.jpg");
     background-size: cover;
     height: 600px;
     margin-left: 10px;
@@ -303,6 +303,7 @@ body{
 #p10{
     position: absolute;
     top: 20px;
+    left: 55px;
 }
 #text1{
     margin-bottom: 10px;
@@ -331,7 +332,7 @@ body{
     text-align: left; /* Align the text inside to the left */
     position: absolute;
     top: 380px; /* Position it at the bottom, adjust as necessary */
-    left: 34px;
+    left: 45px;
 }
 #im2{
     width: 23%;
@@ -353,6 +354,7 @@ body{
 #p11{
     position: absolute;
     top: 20px;
+    left: 490px;
 }
 #im211{
     height: 120px;
@@ -376,7 +378,7 @@ body{
     text-align: left; /* Align the text inside to the left */
     position: absolute;
     top: 380px; /* Position it at the bottom, adjust as necessary */
-    left: 402px;
+    left: 482px;
 }
 #im3{
      width: 23%;
@@ -398,6 +400,7 @@ body{
 #p12{
     position: absolute;
     top: 20px;
+    left : 945px;
 }
 #im311{
     height: 293px;
@@ -409,7 +412,7 @@ body{
     text-align: left; /* Align the text inside to the left */
     position: absolute;
     top: 380px; /* Position it at the bottom, adjust as necessary */
-    left: 776px;
+    left: 950px;
 }
 #im4{
     width: 23%;
@@ -431,6 +434,7 @@ body{
 #p13{
    position: absolute;
    top: 20px;
+   left: 1380px;;
 }
 #im411{
    height: 293px;
@@ -442,7 +446,7 @@ body{
    text-align: left; /* Align the text inside to the left */
    position: absolute;
    top: 380px; /* Position it at the bottom, adjust as necessary */
-   left: 1145px;
+   left: 1380px;
 }
 /*images*/
 #image2{
@@ -455,7 +459,7 @@ body{
     flex-direction: column;
     justify-content: center;
     left: 32px;
-    width: 1454px;
+    width: 1735px;
     
 }
 #image3{
